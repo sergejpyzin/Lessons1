@@ -7,6 +7,6 @@ if (userName.ToLower () == "маша") //userName.ToLower () - перевод в
 } 
 else
 {
-    Console.Write ("Привет ");
-    Console.WriteLine (userName);
+    Console.Write ("Привет " + userName);
+    // Console.WriteLine (userName);
 }
